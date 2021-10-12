@@ -1,0 +1,15 @@
+C:\Users\Lamla Malotana\Desktop\C#\PRG282_Assignment_2\PRG282_Assignment_2\bin\Debug\PRG282_Assignment_2.exe.config
+C:\Users\Lamla Malotana\Desktop\C#\PRG282_Assignment_2\PRG282_Assignment_2\bin\Debug\PRG282_Assignment_2.exe
+C:\Users\Lamla Malotana\Desktop\C#\PRG282_Assignment_2\PRG282_Assignment_2\bin\Debug\PRG282_Assignment_2.pdb
+C:\Users\Lamla Malotana\Desktop\C#\PRG282_Assignment_2\PRG282_Assignment_2\obj\Debug\PRG282_Assignment_2.csproj.AssemblyReference.cache
+C:\Users\Lamla Malotana\Desktop\C#\PRG282_Assignment_2\PRG282_Assignment_2\obj\Debug\PRG282_Assignment_2.Login.resources
+C:\Users\Lamla Malotana\Desktop\C#\PRG282_Assignment_2\PRG282_Assignment_2\obj\Debug\PRG282_Assignment_2.Properties.Resources.resources
+C:\Users\Lamla Malotana\Desktop\C#\PRG282_Assignment_2\PRG282_Assignment_2\obj\Debug\PRG282_Assignment_2.csproj.GenerateResource.cache
+C:\Users\Lamla Malotana\Desktop\C#\PRG282_Assignment_2\PRG282_Assignment_2\obj\Debug\PRG282_Assignment_2.csproj.CoreCompileInputs.cache
+C:\Users\Lamla Malotana\Desktop\C#\PRG282_Assignment_2\PRG282_Assignment_2\obj\Debug\PRG282_Assignment_2.exe
+C:\Users\Lamla Malotana\Desktop\C#\PRG282_Assignment_2\PRG282_Assignment_2\obj\Debug\PRG282_Assignment_2.pdb
+C:\Users\Lamla Malotana\Desktop\C#\PRG282_Assignment_2\PRG282_Assignment_2\obj\Debug\PRG282_Assignment_2.MangementMenu.resources
+C:\Users\Lamla Malotana\Desktop\C#\PRG282_Assignment_2\PRG282_Assignment_2\obj\Debug\PRG282_Assignment_2.RegisterAccount.resources
+C:\Users\Lamla Malotana\Desktop\C#\PRG282_Assignment_2\PRG282_Assignment_2\obj\Debug\PRG282_Assignment_2.CreateStudent.resources
+C:\Users\Lamla Malotana\Desktop\C#\PRG282_Assignment_2\PRG282_Assignment_2\obj\Debug\PRG282_Assignment_2.ReadStudent.resources
+C:\Users\Lamla Malotana\Desktop\C#\PRG282_Assignment_2\PRG282_Assignment_2\obj\Debug\PRG282_Assignment_2.UpdateStudent.resources
