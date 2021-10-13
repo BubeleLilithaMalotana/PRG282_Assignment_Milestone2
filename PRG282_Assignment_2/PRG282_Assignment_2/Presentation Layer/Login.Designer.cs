@@ -107,6 +107,7 @@ namespace PRG282_Assignment_2
             this.txtLPassword.ForeColor = System.Drawing.Color.RosyBrown;
             this.txtLPassword.Location = new System.Drawing.Point(55, 15);
             this.txtLPassword.Name = "txtLPassword";
+            this.txtLPassword.PasswordChar = '*';
             this.txtLPassword.Size = new System.Drawing.Size(370, 13);
             this.txtLPassword.TabIndex = 7;
             // 
@@ -262,7 +263,6 @@ namespace PRG282_Assignment_2
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
-            
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

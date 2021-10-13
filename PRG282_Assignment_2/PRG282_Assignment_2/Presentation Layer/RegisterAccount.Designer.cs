@@ -119,6 +119,7 @@ namespace PRG282_Assignment_2
             this.txtRPassword.ForeColor = System.Drawing.Color.RosyBrown;
             this.txtRPassword.Location = new System.Drawing.Point(15, 12);
             this.txtRPassword.Name = "txtRPassword";
+            this.txtRPassword.PasswordChar = '*';
             this.txtRPassword.Size = new System.Drawing.Size(272, 13);
             this.txtRPassword.TabIndex = 1;
             // 
@@ -152,6 +153,7 @@ namespace PRG282_Assignment_2
             this.txtRConfirmPass.ForeColor = System.Drawing.Color.RosyBrown;
             this.txtRConfirmPass.Location = new System.Drawing.Point(15, 10);
             this.txtRConfirmPass.Name = "txtRConfirmPass";
+            this.txtRConfirmPass.PasswordChar = '*';
             this.txtRConfirmPass.Size = new System.Drawing.Size(272, 13);
             this.txtRConfirmPass.TabIndex = 2;
             // 
