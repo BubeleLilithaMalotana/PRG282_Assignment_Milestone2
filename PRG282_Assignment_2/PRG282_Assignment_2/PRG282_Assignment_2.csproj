@@ -127,7 +127,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Business Logic Layer\" />
-    <Folder Include="Data Access Layer\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\download.png" />
@@ -137,6 +136,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Username.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data Access Layer\studentInfo.sql" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
