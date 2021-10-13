@@ -17,37 +17,30 @@ namespace PRG282_Assignment_2
         {
             InitializeComponent();
         }
-        Business_Logic_Layer.LoginFileHandler lfh = new Business_Logic_Layer.LoginFileHandler();
+
+      
 
         private void button2_Click(object sender, EventArgs e)
         {
             RegisterAccount frm3 = new RegisterAccount();
             frm3.Show();
             this.Hide();
+         
         }
 
         private void btnclose_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
-       
-      
+
         private void button1_Click_1(object sender, EventArgs e)
         {
 
-            try
-            {
-                lfh.login(txtLUsername.Text, txtLPassword.Text);
-               
-            }
-            catch (Exception er)
-            {
-                MessageBox.Show("error" + er.Message);
-            }
+            MangementMenu frm2 = new MangementMenu();
+            this.Hide();
+            frm2.Show();
         }
+
         
-
-
-       
     }
 }
