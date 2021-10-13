@@ -12,6 +12,7 @@ namespace PRG282_Assignment_2
 {
     public partial class RegisterAccount : Form
     {
+        Business_Logic_Layer.LoginFileHandler fileHandler = new Business_Logic_Layer.LoginFileHandler();
         public RegisterAccount()
         {
             InitializeComponent();
@@ -24,10 +25,7 @@ namespace PRG282_Assignment_2
 
         private void button2_Click(object sender, EventArgs e)
         {
-            MangementMenu frm1 = new MangementMenu();
-            frm1.Show();
-            this.Hide();
-
+            fileHandler.register(txtRUsername.Text, txtRPassword.Text, txtRConfirmPass.Text);
         }
     }
 }

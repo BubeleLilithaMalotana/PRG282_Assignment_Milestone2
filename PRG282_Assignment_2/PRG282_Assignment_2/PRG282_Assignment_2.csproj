@@ -34,6 +34,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -46,6 +48,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Business Logic Layer\LoginFileHandler.cs" />
+    <Compile Include="Data Access Layer\DataHandler.cs" />
     <Compile Include="Presentation Layer\CreateStudent.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -125,10 +129,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Business Logic Layer\" />
-    <Folder Include="Data Access Layer\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="Resources\download.png" />
   </ItemGroup>
@@ -137,6 +138,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Username.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data Access Layer\studentInfo.sql" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

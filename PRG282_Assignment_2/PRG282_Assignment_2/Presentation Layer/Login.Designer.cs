@@ -107,6 +107,7 @@ namespace PRG282_Assignment_2
             this.txtLPassword.ForeColor = System.Drawing.Color.RosyBrown;
             this.txtLPassword.Location = new System.Drawing.Point(55, 15);
             this.txtLPassword.Name = "txtLPassword";
+            this.txtLPassword.PasswordChar = '*';
             this.txtLPassword.Size = new System.Drawing.Size(370, 13);
             this.txtLPassword.TabIndex = 7;
             // 
@@ -149,7 +150,7 @@ namespace PRG282_Assignment_2
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Cooper Black", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.Black;
-            this.label5.Location = new System.Drawing.Point(101, 94);
+            this.label5.Location = new System.Drawing.Point(113, 97);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(188, 19);
             this.label5.TabIndex = 2;
