@@ -12,6 +12,7 @@ namespace PRG282_Assignment_2
 {
     public partial class CreateStudent : Form
     {
+        
         public CreateStudent()
         {
             InitializeComponent();
@@ -59,6 +60,11 @@ namespace PRG282_Assignment_2
             {
                 CstudentPicBox.Image = new Bitmap(opnfd.FileName);
             }
+        }
+
+        private void btnAddStudent_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

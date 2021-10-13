@@ -47,7 +47,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Business Logic Layer\LoginFileHandler.cs" />
-    <Compile Include="Business Logic Layer\Students.cs" />
+    <Compile Include="Data Access Layer\Students.cs" />
+    <Compile Include="Data Access Layer\DataHandler.cs" />
     <Compile Include="Presentation Layer\CreateStudent.cs">
       <SubType>Form</SubType>
     </Compile>
