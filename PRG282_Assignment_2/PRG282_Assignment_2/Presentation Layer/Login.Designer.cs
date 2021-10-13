@@ -149,7 +149,7 @@ namespace PRG282_Assignment_2
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Cooper Black", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.Black;
-            this.label5.Location = new System.Drawing.Point(101, 94);
+            this.label5.Location = new System.Drawing.Point(113, 97);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(188, 19);
             this.label5.TabIndex = 2;

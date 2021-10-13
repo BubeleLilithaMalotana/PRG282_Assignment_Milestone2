@@ -30,7 +30,6 @@ namespace PRG282_Assignment_2
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label5 = new System.Windows.Forms.Label();
             this.btnclose = new System.Windows.Forms.Button();
             this.txtRUsername = new System.Windows.Forms.TextBox();
@@ -49,12 +48,13 @@ namespace PRG282_Assignment_2
             this.label2 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -67,15 +67,6 @@ namespace PRG282_Assignment_2
             this.label1.Size = new System.Drawing.Size(132, 19);
             this.label1.TabIndex = 1;
             this.label1.Text = "Welcome to the";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::PRG282_Assignment_2.Properties.Resources.download;
-            this.pictureBox1.Location = new System.Drawing.Point(61, 12);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(187, 173);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
             // 
             // label5
             // 
@@ -105,6 +96,8 @@ namespace PRG282_Assignment_2
             // txtRUsername
             // 
             this.txtRUsername.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtRUsername.Font = new System.Drawing.Font("Cooper Black", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtRUsername.ForeColor = System.Drawing.Color.RosyBrown;
             this.txtRUsername.Location = new System.Drawing.Point(15, 12);
             this.txtRUsername.Name = "txtRUsername";
             this.txtRUsername.Size = new System.Drawing.Size(272, 13);
@@ -122,6 +115,8 @@ namespace PRG282_Assignment_2
             // txtRPassword
             // 
             this.txtRPassword.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtRPassword.Font = new System.Drawing.Font("Cooper Black", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtRPassword.ForeColor = System.Drawing.Color.RosyBrown;
             this.txtRPassword.Location = new System.Drawing.Point(15, 12);
             this.txtRPassword.Name = "txtRPassword";
             this.txtRPassword.Size = new System.Drawing.Size(272, 13);
@@ -153,6 +148,8 @@ namespace PRG282_Assignment_2
             // txtRConfirmPass
             // 
             this.txtRConfirmPass.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtRConfirmPass.Font = new System.Drawing.Font("Cooper Black", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtRConfirmPass.ForeColor = System.Drawing.Color.RosyBrown;
             this.txtRConfirmPass.Location = new System.Drawing.Point(15, 10);
             this.txtRConfirmPass.Name = "txtRConfirmPass";
             this.txtRConfirmPass.Size = new System.Drawing.Size(272, 13);
@@ -277,6 +274,15 @@ namespace PRG282_Assignment_2
             this.panel1.Size = new System.Drawing.Size(300, 450);
             this.panel1.TabIndex = 6;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::PRG282_Assignment_2.Properties.Resources.download;
+            this.pictureBox1.Location = new System.Drawing.Point(61, 12);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(187, 173);
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
             // RegisterAccount
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -288,7 +294,6 @@ namespace PRG282_Assignment_2
             this.Name = "RegisterAccount";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             this.panel4.ResumeLayout(false);
@@ -299,6 +304,7 @@ namespace PRG282_Assignment_2
             this.panel2.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }

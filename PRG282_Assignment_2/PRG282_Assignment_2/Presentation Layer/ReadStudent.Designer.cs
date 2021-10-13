@@ -188,6 +188,8 @@ namespace PRG282_Assignment_2
             // txtRUsername
             // 
             this.txtRUsername.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtRUsername.Font = new System.Drawing.Font("Cooper Black", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtRUsername.ForeColor = System.Drawing.Color.RosyBrown;
             this.txtRUsername.Location = new System.Drawing.Point(7, 17);
             this.txtRUsername.Name = "txtRUsername";
             this.txtRUsername.Size = new System.Drawing.Size(488, 13);

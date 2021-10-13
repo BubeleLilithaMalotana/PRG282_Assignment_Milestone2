@@ -252,6 +252,8 @@ namespace PRG282_Assignment_2
             // dateTimePicker1
             // 
             this.dateTimePicker1.CalendarFont = new System.Drawing.Font("Cooper Black", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateTimePicker1.CalendarForeColor = System.Drawing.Color.RosyBrown;
+            this.dateTimePicker1.CalendarTitleForeColor = System.Drawing.Color.RosyBrown;
             this.dateTimePicker1.CustomFormat = "dd-MM-yyy";
             this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dateTimePicker1.Location = new System.Drawing.Point(252, 128);
@@ -297,6 +299,7 @@ namespace PRG282_Assignment_2
             // textBox7
             // 
             this.textBox7.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox7.ForeColor = System.Drawing.Color.RosyBrown;
             this.textBox7.Location = new System.Drawing.Point(16, 285);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(349, 18);
@@ -316,6 +319,7 @@ namespace PRG282_Assignment_2
             // textBox5
             // 
             this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox5.ForeColor = System.Drawing.Color.RosyBrown;
             this.textBox5.Location = new System.Drawing.Point(252, 195);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(141, 18);
@@ -346,9 +350,11 @@ namespace PRG282_Assignment_2
             // textBox3
             // 
             this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox3.Font = new System.Drawing.Font("Cooper Black", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox3.ForeColor = System.Drawing.Color.RosyBrown;
             this.textBox3.Location = new System.Drawing.Point(252, 57);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(141, 18);
+            this.textBox3.Size = new System.Drawing.Size(141, 15);
             this.textBox3.TabIndex = 25;
             // 
             // label9
@@ -365,9 +371,11 @@ namespace PRG282_Assignment_2
             // textBox1
             // 
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox1.Font = new System.Drawing.Font("Cooper Black", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.ForeColor = System.Drawing.Color.RosyBrown;
             this.textBox1.Location = new System.Drawing.Point(26, 134);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(141, 18);
+            this.textBox1.Size = new System.Drawing.Size(141, 15);
             this.textBox1.TabIndex = 21;
             // 
             // label7
@@ -384,9 +392,11 @@ namespace PRG282_Assignment_2
             // txtRUsername
             // 
             this.txtRUsername.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtRUsername.Font = new System.Drawing.Font("Cooper Black", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtRUsername.ForeColor = System.Drawing.Color.RosyBrown;
             this.txtRUsername.Location = new System.Drawing.Point(26, 57);
             this.txtRUsername.Name = "txtRUsername";
-            this.txtRUsername.Size = new System.Drawing.Size(141, 18);
+            this.txtRUsername.Size = new System.Drawing.Size(141, 15);
             this.txtRUsername.TabIndex = 19;
             // 
             // label11
@@ -421,6 +431,7 @@ namespace PRG282_Assignment_2
             // textBox6
             // 
             this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox6.ForeColor = System.Drawing.Color.RosyBrown;
             this.textBox6.Location = new System.Drawing.Point(247, 123);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(141, 18);
@@ -440,6 +451,7 @@ namespace PRG282_Assignment_2
             // textBox8
             // 
             this.textBox8.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox8.ForeColor = System.Drawing.Color.RosyBrown;
             this.textBox8.Location = new System.Drawing.Point(21, 123);
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(157, 18);
@@ -459,6 +471,7 @@ namespace PRG282_Assignment_2
             // textBox2
             // 
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox2.ForeColor = System.Drawing.Color.RosyBrown;
             this.textBox2.Location = new System.Drawing.Point(247, 56);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(156, 18);
@@ -478,6 +491,7 @@ namespace PRG282_Assignment_2
             // textBox4
             // 
             this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox4.ForeColor = System.Drawing.Color.RosyBrown;
             this.textBox4.Location = new System.Drawing.Point(21, 56);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(156, 18);
@@ -522,9 +536,11 @@ namespace PRG282_Assignment_2
             // txtUSearch
             // 
             this.txtUSearch.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtUSearch.Location = new System.Drawing.Point(70, 13);
+            this.txtUSearch.Font = new System.Drawing.Font("Cooper Black", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtUSearch.ForeColor = System.Drawing.Color.RosyBrown;
+            this.txtUSearch.Location = new System.Drawing.Point(10, 13);
             this.txtUSearch.Name = "txtUSearch";
-            this.txtUSearch.Size = new System.Drawing.Size(223, 13);
+            this.txtUSearch.Size = new System.Drawing.Size(437, 13);
             this.txtUSearch.TabIndex = 36;
             this.txtUSearch.TextChanged += new System.EventHandler(this.txtUSearch_TextChanged);
             // 

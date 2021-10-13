@@ -57,7 +57,7 @@ namespace PRG282_Assignment_2
             opnfd.Filter = "Image Files (*.jpg;*.jpeg;.*.gif;)|*.jpg;*.jpeg;.*.gif";
             if (opnfd.ShowDialog() == DialogResult.OK)
             {
-                pictureBox1.Image = new Bitmap(opnfd.FileName);
+                CstudentPicBox.Image = new Bitmap(opnfd.FileName);
             }
         }
     }

@@ -41,7 +41,7 @@ namespace PRG282_Assignment_2
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.btnAddSphoto = new System.Windows.Forms.Button();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.CstudentPicBox = new System.Windows.Forms.PictureBox();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
@@ -73,7 +73,7 @@ namespace PRG282_Assignment_2
             this.panel2.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CstudentPicBox)).BeginInit();
             this.groupBox3.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -208,7 +208,7 @@ namespace PRG282_Assignment_2
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.btnAddSphoto);
-            this.groupBox1.Controls.Add(this.pictureBox2);
+            this.groupBox1.Controls.Add(this.CstudentPicBox);
             this.groupBox1.Controls.Add(this.dateTimePicker1);
             this.groupBox1.Controls.Add(this.groupBox3);
             this.groupBox1.Controls.Add(this.textBox7);
@@ -244,20 +244,22 @@ namespace PRG282_Assignment_2
             this.btnAddSphoto.UseVisualStyleBackColor = false;
             this.btnAddSphoto.Click += new System.EventHandler(this.btnAddSphoto_Click);
             // 
-            // pictureBox2
+            // CstudentPicBox
             // 
-            this.pictureBox2.Location = new System.Drawing.Point(481, 76);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(139, 107);
-            this.pictureBox2.TabIndex = 34;
-            this.pictureBox2.TabStop = false;
+            this.CstudentPicBox.Location = new System.Drawing.Point(481, 76);
+            this.CstudentPicBox.Name = "CstudentPicBox";
+            this.CstudentPicBox.Size = new System.Drawing.Size(139, 107);
+            this.CstudentPicBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.CstudentPicBox.TabIndex = 34;
+            this.CstudentPicBox.TabStop = false;
             // 
             // dateTimePicker1
             // 
             this.dateTimePicker1.CalendarFont = new System.Drawing.Font("Cooper Black", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateTimePicker1.CalendarForeColor = System.Drawing.Color.RosyBrown;
             this.dateTimePicker1.CustomFormat = "dd-MM-yyy";
             this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePicker1.Location = new System.Drawing.Point(252, 128);
+            this.dateTimePicker1.Location = new System.Drawing.Point(252, 127);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(126, 25);
             this.dateTimePicker1.TabIndex = 33;
@@ -300,6 +302,7 @@ namespace PRG282_Assignment_2
             // textBox7
             // 
             this.textBox7.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox7.ForeColor = System.Drawing.Color.RosyBrown;
             this.textBox7.Location = new System.Drawing.Point(16, 285);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(349, 18);
@@ -320,6 +323,7 @@ namespace PRG282_Assignment_2
             // textBox5
             // 
             this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox5.ForeColor = System.Drawing.Color.RosyBrown;
             this.textBox5.Location = new System.Drawing.Point(252, 195);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(141, 18);
@@ -350,6 +354,7 @@ namespace PRG282_Assignment_2
             // textBox3
             // 
             this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox3.ForeColor = System.Drawing.Color.RosyBrown;
             this.textBox3.Location = new System.Drawing.Point(252, 57);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(141, 18);
@@ -369,6 +374,7 @@ namespace PRG282_Assignment_2
             // textBox1
             // 
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox1.ForeColor = System.Drawing.Color.RosyBrown;
             this.textBox1.Location = new System.Drawing.Point(26, 134);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(141, 18);
@@ -388,6 +394,7 @@ namespace PRG282_Assignment_2
             // txtRUsername
             // 
             this.txtRUsername.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtRUsername.ForeColor = System.Drawing.Color.RosyBrown;
             this.txtRUsername.Location = new System.Drawing.Point(26, 57);
             this.txtRUsername.Name = "txtRUsername";
             this.txtRUsername.Size = new System.Drawing.Size(141, 18);
@@ -433,6 +440,7 @@ namespace PRG282_Assignment_2
             // textBox2
             // 
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox2.ForeColor = System.Drawing.Color.RosyBrown;
             this.textBox2.Location = new System.Drawing.Point(247, 56);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(156, 18);
@@ -452,6 +460,7 @@ namespace PRG282_Assignment_2
             // textBox4
             // 
             this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox4.ForeColor = System.Drawing.Color.RosyBrown;
             this.textBox4.Location = new System.Drawing.Point(21, 56);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(156, 18);
@@ -471,6 +480,7 @@ namespace PRG282_Assignment_2
             // textBox6
             // 
             this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox6.ForeColor = System.Drawing.Color.RosyBrown;
             this.textBox6.Location = new System.Drawing.Point(247, 123);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(141, 18);
@@ -490,6 +500,7 @@ namespace PRG282_Assignment_2
             // textBox8
             // 
             this.textBox8.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox8.ForeColor = System.Drawing.Color.RosyBrown;
             this.textBox8.Location = new System.Drawing.Point(21, 123);
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(157, 18);
@@ -526,7 +537,7 @@ namespace PRG282_Assignment_2
             this.groupBox2.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CstudentPicBox)).EndInit();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
             this.ResumeLayout(false);
@@ -564,7 +575,7 @@ namespace PRG282_Assignment_2
         private System.Windows.Forms.Label label7;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private System.Windows.Forms.Button btnAddSphoto;
-        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox CstudentPicBox;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.Label label6;
