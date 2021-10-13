@@ -17,15 +17,11 @@ namespace PRG282_Assignment_2
         {
             InitializeComponent();
         }
-
-      
-
         private void button2_Click(object sender, EventArgs e)
         {
             RegisterAccount frm3 = new RegisterAccount();
             frm3.Show();
             this.Hide();
-         
         }
 
         private void btnclose_Click(object sender, EventArgs e)
@@ -35,12 +31,9 @@ namespace PRG282_Assignment_2
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-
             MangementMenu frm2 = new MangementMenu();
             this.Hide();
             frm2.Show();
         }
-
-        
     }
 }

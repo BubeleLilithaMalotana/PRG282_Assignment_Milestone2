@@ -24,10 +24,9 @@ namespace PRG282_Assignment_2
 
         private void button2_Click(object sender, EventArgs e)
         {
-            MangementMenu frm1 = new MangementMenu();
+            MangementMenu frm1 = new MangementMenu ();
             frm1.Show();
             this.Hide();
-
         }
     }
 }
