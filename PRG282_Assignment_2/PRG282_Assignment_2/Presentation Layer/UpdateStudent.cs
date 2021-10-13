@@ -57,7 +57,7 @@ namespace PRG282_Assignment_2
 
         private void btnUpdateStudent_Click(object sender, EventArgs e)
         {
-            //handler.studentUpdate(int.Parse(txtRUsername.Text), textBox3, textBox1, comboBox1, textBox5, textBox7, textBox4, textBox2, textBox8, textBox6);
+            handler.studentUpdate(int.Parse(txtRUsername.Text), textBox3.Text, textBox1.Text, comboBox1.Text, textBox5.Text, textBox7.Text, textBox4.Text, textBox2.Text, textBox8.Text, textBox6.Text);
         }
     }
 }

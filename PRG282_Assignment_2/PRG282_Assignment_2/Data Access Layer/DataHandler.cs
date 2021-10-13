@@ -62,6 +62,11 @@ namespace PRG282_Assignment_2.Data_Access_Layer
             }
         }
 
+        internal void studentUpdate(int v, string text1, string text2, string text3, string text4, string text5, string text6, string text7, string text8, string text9)
+        {
+            throw new NotImplementedException();
+        }
+
         public DataTable  studentSearch(int studentNr)
         {
             SqlConnection connection = new SqlConnection(conn);
