@@ -18,7 +18,7 @@ namespace PRG282_Assignment_2
             InitializeComponent();
         }
 
-      
+        Business_Logic_Layer.LoginFileHandler fileHandler = new Business_Logic_Layer.LoginFileHandler();
 
         private void button2_Click(object sender, EventArgs e)
         {
@@ -36,9 +36,7 @@ namespace PRG282_Assignment_2
         private void button1_Click_1(object sender, EventArgs e)
         {
 
-            MangementMenu frm2 = new MangementMenu();
-            this.Hide();
-            frm2.Show();
+            fileHandler.login(txtLUsername.Text,txtLPassword.Text);
         }
 
         
