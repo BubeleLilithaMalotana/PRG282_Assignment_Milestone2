@@ -64,7 +64,7 @@ namespace PRG282_Assignment_2
 
         private void btnAddStudent_Click(object sender, EventArgs e)
         {
-            handler.studentAdd(int.Parse(txtRUsername.Text), textBox3.Text, textBox1.Text,  dateTimePicker1.Text, comboBox1.Text, textBox5.Text, textBox7.Text, textBox4.Text, textBox2.Text, textBox8.Text, textBox6.Text);
+            handler.studentAdd(int.Parse(txtRUsername.Text), textBox3.Text, textBox1.Text, dateTimePicker1.Text, comboBox1.Text, textBox5.Text, textBox7.Text, textBox4.Text, textBox2.Text, textBox8.Text, textBox6.Text);
         }
     }
 }
