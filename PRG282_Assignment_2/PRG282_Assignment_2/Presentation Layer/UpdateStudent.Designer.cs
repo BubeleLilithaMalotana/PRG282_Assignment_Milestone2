@@ -41,11 +41,8 @@ namespace PRG282_Assignment_2
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.btnAddUphoto = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.label16 = new System.Windows.Forms.Label();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
             this.textBox5 = new System.Windows.Forms.TextBox();
@@ -57,6 +54,7 @@ namespace PRG282_Assignment_2
             this.label7 = new System.Windows.Forms.Label();
             this.txtRUsername = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
@@ -67,10 +65,11 @@ namespace PRG282_Assignment_2
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.btnUSearch = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.txtUSearch = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.btnUSearch = new System.Windows.Forms.Button();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -190,6 +189,7 @@ namespace PRG282_Assignment_2
             this.btnUpdateStudent.TabIndex = 6;
             this.btnUpdateStudent.Text = "Update Student";
             this.btnUpdateStudent.UseVisualStyleBackColor = false;
+            this.btnUpdateStudent.Click += new System.EventHandler(this.btnUpdateStudent_Click);
             // 
             // groupBox1
             // 
@@ -238,17 +238,6 @@ namespace PRG282_Assignment_2
             this.pictureBox2.TabIndex = 34;
             this.pictureBox2.TabStop = false;
             // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Cooper Black", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.ForeColor = System.Drawing.Color.Black;
-            this.label16.Location = new System.Drawing.Point(278, 61);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(124, 19);
-            this.label16.TabIndex = 35;
-            this.label16.Text = "Update by ID :";
-            // 
             // dateTimePicker1
             // 
             this.dateTimePicker1.CalendarFont = new System.Drawing.Font("Cooper Black", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -263,38 +252,13 @@ namespace PRG282_Assignment_2
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.radioButton2);
-            this.groupBox3.Controls.Add(this.radioButton1);
+            this.groupBox3.Controls.Add(this.comboBox1);
             this.groupBox3.Location = new System.Drawing.Point(26, 161);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(181, 87);
             this.groupBox3.TabIndex = 32;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Gender :";
-            // 
-            // radioButton2
-            // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Font = new System.Drawing.Font("Cooper Black", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton2.Location = new System.Drawing.Point(20, 60);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(74, 19);
-            this.radioButton2.TabIndex = 1;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Female";
-            this.radioButton2.UseVisualStyleBackColor = true;
-            // 
-            // radioButton1
-            // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Font = new System.Drawing.Font("Cooper Black", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton1.Location = new System.Drawing.Point(20, 25);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(56, 19);
-            this.radioButton1.TabIndex = 0;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Male";
-            this.radioButton1.UseVisualStyleBackColor = true;
             // 
             // textBox7
             // 
@@ -410,6 +374,17 @@ namespace PRG282_Assignment_2
             this.label11.TabIndex = 18;
             this.label11.Text = "Student Number :";
             // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Cooper Black", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.ForeColor = System.Drawing.Color.Black;
+            this.label16.Location = new System.Drawing.Point(278, 61);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(124, 19);
+            this.label16.TabIndex = 35;
+            this.label16.Text = "Update by ID :";
+            // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.textBox6);
@@ -524,6 +499,20 @@ namespace PRG282_Assignment_2
             this.panel2.Size = new System.Drawing.Size(691, 700);
             this.panel2.TabIndex = 10;
             // 
+            // btnUSearch
+            // 
+            this.btnUSearch.BackColor = System.Drawing.Color.RosyBrown;
+            this.btnUSearch.FlatAppearance.BorderSize = 0;
+            this.btnUSearch.Font = new System.Drawing.Font("Cooper Black", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnUSearch.ForeColor = System.Drawing.Color.Black;
+            this.btnUSearch.Location = new System.Drawing.Point(566, 80);
+            this.btnUSearch.Name = "btnUSearch";
+            this.btnUSearch.Size = new System.Drawing.Size(113, 45);
+            this.btnUSearch.TabIndex = 38;
+            this.btnUSearch.Text = "Search";
+            this.btnUSearch.UseVisualStyleBackColor = false;
+            this.btnUSearch.Click += new System.EventHandler(this.btnUSearch_Click);
+            // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.White;
@@ -555,18 +544,16 @@ namespace PRG282_Assignment_2
             this.label5.TabIndex = 2;
             this.label5.Text = "Update Students";
             // 
-            // btnUSearch
+            // comboBox1
             // 
-            this.btnUSearch.BackColor = System.Drawing.Color.RosyBrown;
-            this.btnUSearch.FlatAppearance.BorderSize = 0;
-            this.btnUSearch.Font = new System.Drawing.Font("Cooper Black", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnUSearch.ForeColor = System.Drawing.Color.Black;
-            this.btnUSearch.Location = new System.Drawing.Point(566, 80);
-            this.btnUSearch.Name = "btnUSearch";
-            this.btnUSearch.Size = new System.Drawing.Size(113, 45);
-            this.btnUSearch.TabIndex = 38;
-            this.btnUSearch.Text = "Search";
-            this.btnUSearch.UseVisualStyleBackColor = false;
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Male",
+            "Female"});
+            this.comboBox1.Location = new System.Drawing.Point(20, 34);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(121, 25);
+            this.comboBox1.TabIndex = 0;
             // 
             // UpdateStudent
             // 
@@ -586,7 +573,6 @@ namespace PRG282_Assignment_2
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.groupBox3.ResumeLayout(false);
-            this.groupBox3.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.panel2.ResumeLayout(false);
@@ -613,8 +599,6 @@ namespace PRG282_Assignment_2
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.TextBox textBox7;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.TextBox textBox5;
@@ -641,5 +625,6 @@ namespace PRG282_Assignment_2
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Button btnUSearch;
+        private System.Windows.Forms.ComboBox comboBox1;
     }
 }

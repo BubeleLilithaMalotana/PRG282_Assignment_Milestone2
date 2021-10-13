@@ -1,4 +1,4 @@
-CREATE DATABASE studentInformation;
+CREATE DATABASE studentDB;
 
 CREATE TABLE studentInformation (
     StudentNumber INT,

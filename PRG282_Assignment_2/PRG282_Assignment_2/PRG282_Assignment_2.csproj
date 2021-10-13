@@ -34,6 +34,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -47,7 +49,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Business Logic Layer\LoginFileHandler.cs" />
-    <Compile Include="Data Access Layer\Students.cs" />
     <Compile Include="Data Access Layer\DataHandler.cs" />
     <Compile Include="Presentation Layer\CreateStudent.cs">
       <SubType>Form</SubType>

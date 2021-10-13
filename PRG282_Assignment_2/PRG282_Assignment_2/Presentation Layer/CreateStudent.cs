@@ -12,7 +12,7 @@ namespace PRG282_Assignment_2
 {
     public partial class CreateStudent : Form
     {
-        
+        Data_Access_Layer.DataHandler handler = new Data_Access_Layer.DataHandler();
         public CreateStudent()
         {
             InitializeComponent();
@@ -64,7 +64,7 @@ namespace PRG282_Assignment_2
 
         private void btnAddStudent_Click(object sender, EventArgs e)
         {
-
+            //handler.studentAdd(int.Parse(txtRUsername.Text), textBox3.Text, textBox1.Text,  dateTimePicker1, comboBox1, textBox5, textBox7, textBox4, textBox2, textBox8, textBox6);
         }
     }
 }

@@ -12,6 +12,9 @@ namespace PRG282_Assignment_2
 {
     public partial class UpdateStudent : Form
     {
+
+        Data_Access_Layer.DataHandler handler = new Data_Access_Layer.DataHandler();
+
         public UpdateStudent()
         {
             InitializeComponent();
@@ -45,6 +48,16 @@ namespace PRG282_Assignment_2
             {
                 pictureBox1.Image = new Bitmap(opnfd.FileName);
             }
+        }
+
+        private void btnUSearch_Click(object sender, EventArgs e)
+        {
+            handler.studentSearch(int.Parse(txtUSearch.Text));
+        }
+
+        private void btnUpdateStudent_Click(object sender, EventArgs e)
+        {
+            //handler.studentUpdate(int.Parse(txtRUsername.Text), textBox3, textBox1, comboBox1, textBox5, textBox7, textBox4, textBox2, textBox8, textBox6);
         }
     }
 }
